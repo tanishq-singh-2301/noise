@@ -31,6 +31,12 @@ body>div {
     height: 100%;
 }
 
+main {
+	background-image: url("../public/image.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 #noise {
     background-image: url("../public/noise.png");
     position: absolute;
@@ -39,9 +45,9 @@ body>div {
     width: 300vw;
     height: 300vw;
     background-position: 0 0;
-    background-size: 200px 200px;
+    background-size: 500px 500px;
     opacity: .08;
-    animation: noiser .4s infinite;
+    animation: noiser .3s infinite;
 }
 
 @keyframes noiser {
